@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            "name": "Editor Win64 Development (CurrentProject)",
+			"compilerPath": "${default}",
+			"intelliSenseMode": "${default}",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "compileCommands": "${workspaceFolder}\\.vscode\\compileCommands_Default.json",
+			"includePath": [ 
+                "${workspaceFolder}\\Plugins\\**", 
+                "${workspaceFolder}\\Source\\**", 
+                "${workspaceFolder}\\Intermediate\\**" ], 
+            "defines": [ 
+                "UNICODE", 
+                "_UNICODE", 
+                "__UNREAL__", 
+                "UBT_COMPILED_PLATFORM=Windows", 
+                "WITH_ENGINE=1", 
+                "WITH_UNREAL_DEVELOPER_TOOLS=1", 
+                "WITH_APPLICATION_CORE=1", 
+                "WITH_COREUOBJECT=1"]
+        },
+        {
+            "name": "Win32",
+			"compilerPath": "${default}",
+			"intelliSenseMode": "${default}",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "compileCommands": "${workspaceFolder}\\.vscode\\compileCommands_Default.json",
+			"includePath": [ 
+                "${workspaceFolder}\\Plugins\\**", 
+                "${workspaceFolder}\\Source\\**", 
+                "${workspaceFolder}\\Intermediate\\**" ], 
+            "defines": [ 
+                "UNICODE", 
+                "_UNICODE", 
+                "__UNREAL__", 
+                "UBT_COMPILED_PLATFORM=Windows", 
+                "WITH_ENGINE=1", 
+                "WITH_UNREAL_DEVELOPER_TOOLS=1", 
+                "WITH_APPLICATION_CORE=1", 
+                "WITH_COREUOBJECT=1"]
+        }
+    ],
+    "version": 4
+}
